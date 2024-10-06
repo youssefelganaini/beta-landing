@@ -5,7 +5,7 @@ export default function LandingPage() {
     <>
       <header className="w-full border-b bg-white">
         <div className="container mx-auto px-4 py-4 flex justify-center">
-          SageDoc
+          FastDocs
           <Badge variant="default" className="mx-2">
             Beta
           </Badge>
