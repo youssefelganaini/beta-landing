@@ -1,6 +1,5 @@
 import { BetaSignupForm } from "@/components/ui/BetaSignupForm";
 import { Badge } from "@/components/ui/badge";
-import Link from "next/link";
 export default function LandingPage() {
   return (
     <>
