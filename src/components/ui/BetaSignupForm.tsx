@@ -7,15 +7,6 @@ import { Input } from "@/components/ui/input";
 const BetaSignupForm = () => {
   const [email, setEmail] = useState("");
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    // Here you would typically handle the form submission,
-    // such as sending the email to your API
-    console.log("Submitted email:", email);
-    // Reset the form
-    setEmail("");
-  };
-
   return (
     <div className="max-w-md mx-auto w-full space-y-4">
       <h2 className="text-2xl font-semibold">Get Early Access</h2>
