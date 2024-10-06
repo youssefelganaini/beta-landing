@@ -5,9 +5,11 @@ export default function LandingPage() {
   return (
     <>
       <header className="w-full border-b bg-white">
-        <div className="container font-bold mx-auto px-4 py-4 flex justify-center font-">
+        <div className="container mx-auto px-4 py-4 flex justify-center">
           SageDoc
-          <Badge className="mx-2">Beta</Badge>
+          <Badge variant="default" className="mx-2">
+            Beta
+          </Badge>
         </div>
       </header>
       <div className="min-h-screen flex flex-col items-center justify-between p-8 md:p-24 max-w-5xl mx-auto">
@@ -27,7 +29,7 @@ export default function LandingPage() {
           {/* Demo Video Section */}
           <section className="w-full space-y-8">
             <h2 className="text-2xl md:text-3xl font-semibold">Sneak Peek</h2>
-            <div className="aspect-w-16 aspect-h-12 w-full">
+            <div className="aspect-video w-full">
               <iframe
                 className="w-full h-full rounded-lg"
                 src="https://www.youtube.com/embed/dQw4w9WgXcQ"
@@ -59,7 +61,7 @@ export default function LandingPage() {
                     d="M5 13l4 4L19 7"
                   ></path>
                 </svg>
-                <span>Streamlined task management</span>
+                <span>Super-fast integration</span>
               </li>
               <li className="flex items-start">
                 <svg
@@ -76,7 +78,7 @@ export default function LandingPage() {
                     d="M5 13l4 4L19 7"
                   ></path>
                 </svg>
-                <span>AI-powered productivity insights</span>
+                <span>Tailored and trained on your own docs</span>
               </li>
               <li className="flex items-start">
                 <svg
@@ -93,13 +95,13 @@ export default function LandingPage() {
                     d="M5 13l4 4L19 7"
                   ></path>
                 </svg>
-                <span>Seamless team collaboration tools</span>
+                <span>Efficiency gains for devs</span>
               </li>
             </ul>
           </section>
         </main>
         <footer className="w-full text-center text-sm text-muted-foreground mt-16">
-          <p>&copy; 2024 MountainTech. All rights reserved.</p>
+          <p>&copy; 2024 SageDoc. All rights reserved.</p>
         </footer>
       </div>
     </>

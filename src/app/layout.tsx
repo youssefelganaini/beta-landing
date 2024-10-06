@@ -5,9 +5,8 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MountainTech Beta",
-  description:
-    "Join the beta for MountainTech's revolutionary workflow solutions",
+  title: "SageDoc",
+  description: "Custom ChatGPT for your docs",
 };
 
 export default function RootLayout({
