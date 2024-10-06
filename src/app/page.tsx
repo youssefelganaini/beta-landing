@@ -20,8 +20,8 @@ export default function LandingPage() {
               Make developers fall in love with your docs
             </h1>
             <p className="text-xl text-muted-foreground max-w-lg mx-auto">
-              Integrate a personalized ChatGPT for your docs within 1 hour. Join
-              the waitlist today and get early access!
+              Integrate a personalized ChatGPT for your docs/API reference
+              within 1 hour. Join the waitlist today and get early access!
             </p>
             <BetaSignupForm />
           </section>
@@ -29,14 +29,11 @@ export default function LandingPage() {
           {/* Demo Video Section */}
           <section className="w-full space-y-8">
             <h2 className="text-2xl md:text-3xl font-semibold">Sneak Peek</h2>
-            <div className="aspect-video w-full">
-              <iframe
-                className="w-full h-full rounded-lg"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                title="MountainTech Beta Preview"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+            <div className="w-full">
+              <video className="w-full h-full rounded-lg" controls>
+                <source src="/Product Demo.mov" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </section>
 

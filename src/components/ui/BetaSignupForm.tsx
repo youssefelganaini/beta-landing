@@ -19,9 +19,14 @@ const BetaSignupForm = () => {
   return (
     <div className="max-w-md mx-auto w-full space-y-4">
       <h2 className="text-2xl font-semibold">Get Early Access</h2>
-      <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4">
+      <form
+        action="https://formspree.io/f/manywbza"
+        method="POST"
+        className="flex flex-col sm:flex-row gap-4"
+      >
         <Input
           type="email"
+          name="email"
           placeholder="Enter your email"
           className="flex-grow"
           aria-label="Email for beta access"
@@ -29,7 +34,14 @@ const BetaSignupForm = () => {
           onChange={(e) => setEmail(e.target.value)}
           required
         />
-        <Button type="submit">Join Beta</Button>
+        <Button
+          type="submit"
+          onClick={() => {
+            setEmail("");
+          }}
+        >
+          Join Beta
+        </Button>
       </form>
       <p className="text-sm text-muted-foreground">No spam, ever.</p>
     </div>
