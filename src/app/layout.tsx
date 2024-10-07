@@ -6,7 +6,7 @@ import Head from "next/head"; // Import Head
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SageDoc",
+  title: "FastDocs",
   description: "Custom ChatGPT for your docs",
 };
 

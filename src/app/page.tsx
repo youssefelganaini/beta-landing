@@ -97,7 +97,7 @@ export default function LandingPage() {
           </section>
         </main>
         <footer className="w-full text-center text-sm text-muted-foreground mt-16">
-          <p>&copy; 2024 SageDoc. All rights reserved.</p>
+          <p>&copy; 2024 FastDocs. All rights reserved.</p>
         </footer>
       </div>
     </>
